@@ -56,8 +56,9 @@ line-height: 40px;
   justify-content: center;
 }
 
+
 .lightbox {
-  width: 300px;
+width: 300px;
   height: 85%;
   margin: 50 auto;
   background-color: rgb(92, 199, 207);
@@ -76,6 +77,8 @@ line-height: 40px;
   margin-top: 20px;
 }
 
+
+
 .containergrey {
 background-color: rgb(122, 122, 126);
   margin: 0 auto;
@@ -83,4 +86,63 @@ background-color: rgb(122, 122, 126);
   height: 250px;
   display: flex;
   justify-content: center;
+}
+
+.containerbigger {
+background-color: rgb(178, 178, 184);
+  margin: 0 auto;
+  max-width: auto;
+  height: 450px;
+  display: flex;
+}
+
+.greenbox {
+  width: 500px;
+  height: 85%;
+  margin: 0 auto;
+  background-color: rgb(129, 229, 114);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.containerblack {
+background-color: rgb(36, 36, 40);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.roseboxb {
+width: 100px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(229, 114, 139);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+
+.lightboxb {
+  width: 100px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(92, 199, 207);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.containerblackfoot {
+background-color: rgb(36, 36, 40);
+  margin: 0 auto;
+  max-width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+
 }
