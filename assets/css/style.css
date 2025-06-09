@@ -21,14 +21,18 @@ header {
   margin-top: 20px;
 }
 
-.container span {
+.container span, p {
 width: 400px;
 height: 50px;
 border: 2px dashed black;
 background-color: orange;
 line-height: 40px;
-text-align: center;
 }
+
+.container span {
+  text-align: center;
+}
+
 
 .containerblue {
   background-color: rgb(15, 16, 87);
