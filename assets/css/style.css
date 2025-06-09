@@ -24,3 +24,49 @@ header {
 
 }
 
+.containerblue {
+  background-color: rgb(15, 16, 87);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+}
+
+.pinkbox {
+  width: 500px;
+  height: 85%;
+  margin: 0 auto;
+  background-color: rgb(229, 125, 201);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.containerwhite {
+  background-color: rgb(168, 168, 175);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.lightbox {
+  width: 300px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(92, 199, 207);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
+
+.rosebox {
+  width: 200px;
+  height: 85%;
+  margin: 50 auto;
+  background-color: rgb(87, 60, 66);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+}
