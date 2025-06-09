@@ -1,5 +1,26 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+
+header {
+  background-color: lightblue;
+  margin: 0 auto;
+  max-width: auto;
+  height: 100px;
+  display: flex;
+}
+
+.container {
+  width: 500px;
+  height: 50%;
+  margin: 0 auto;
+  background-color: orange;
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+
+}
+
