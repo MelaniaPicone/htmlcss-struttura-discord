@@ -17,11 +17,16 @@ header {
   width: 500px;
   height: 50%;
   margin: 0 auto;
-  background-color: orange;
-  border: 2px dashed black;
   display: flex;
   margin-top: 20px;
+}
 
+.container span {
+width: 400px;
+height: 50px;
+border: 2px dashed black;
+background-color: orange;
+line-height: 40px;
 }
 
 .containerblue {
@@ -43,7 +48,7 @@ header {
 }
 
 .containerwhite {
-  background-color: rgb(168, 168, 175);
+  background-color: rgb(220, 220, 228);
   margin: 0 auto;
   max-width: auto;
   height: 250px;
@@ -65,8 +70,17 @@ header {
   width: 200px;
   height: 85%;
   margin: 50 auto;
-  background-color: rgb(87, 60, 66);
+  background-color: rgb(229, 114, 139);
   border: 2px dashed black;
   display: flex;
   margin-top: 20px;
+}
+
+.containergrey {
+background-color: rgb(122, 122, 126);
+  margin: 0 auto;
+  max-width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
 }
