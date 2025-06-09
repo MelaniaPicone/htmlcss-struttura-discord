@@ -27,6 +27,7 @@ height: 50px;
 border: 2px dashed black;
 background-color: orange;
 line-height: 40px;
+text-align: center;
 }
 
 .containerblue {
@@ -144,5 +145,25 @@ background-color: rgb(36, 36, 40);
   height: 100px;
   display: flex;
   justify-content: center;
+}
 
+.lastloginlight {
+  width: 500px;
+  height: 50%;
+  margin: 50 auto;
+  background-color: rgb(92, 199, 207);
+  border: 2px dashed black;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.lastloginlight span {
+text-align: center;
+  width: 60px;
+height: 20px;
+border: 2px dashed black;
+background-color: rgb(232, 113, 187);
+line-height: 15px;
+margin-top: 12px;
 }
