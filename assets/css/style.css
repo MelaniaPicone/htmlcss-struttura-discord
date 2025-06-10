@@ -1,36 +1,45 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+/* generals */
 
 header {
   background-color: lightblue;
-  margin: 0 auto;
-  max-width: auto;
-  height: 100px;
-  display: flex;
+  padding: 10px 0px;
+
 }
+
+
+/* layout classes */
+/* max width - max 1200 */
 
 .container {
-  width: 500px;
-  height: 50%;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  margin-top: 20px;
 }
 
-.container span, p {
-width: 400px;
-height: 50px;
-border: 2px dashed black;
-background-color: orange;
-line-height: 40px;
+.col-20 {
+  width: 20%;
+  height: 75px;
 }
 
-.container span {
-  text-align: center;
+.col-60 {
+  width: 60%;
+  height: 75px;
+}
+
+/* utility classes */
+
+.bg-orange {
+  background-color: orange;
+}
+
+.border-black {
+  border: 1px solid black;
 }
 
 
@@ -63,7 +72,7 @@ line-height: 40px;
 
 
 .lightbox {
-width: 300px;
+  width: 300px;
   height: 85%;
   margin: 50 auto;
   background-color: rgb(92, 199, 207);
@@ -85,7 +94,7 @@ width: 300px;
 
 
 .containergrey {
-background-color: rgb(122, 122, 126);
+  background-color: rgb(122, 122, 126);
   margin: 0 auto;
   max-width: auto;
   height: 250px;
@@ -94,7 +103,7 @@ background-color: rgb(122, 122, 126);
 }
 
 .containerbigger {
-background-color: rgb(178, 178, 184);
+  background-color: rgb(178, 178, 184);
   margin: 0 auto;
   max-width: auto;
   height: 450px;
@@ -112,7 +121,7 @@ background-color: rgb(178, 178, 184);
 }
 
 .containerblack {
-background-color: rgb(36, 36, 40);
+  background-color: rgb(36, 36, 40);
   margin: 0 auto;
   max-width: auto;
   height: 250px;
@@ -121,7 +130,7 @@ background-color: rgb(36, 36, 40);
 }
 
 .roseboxb {
-width: 100px;
+  width: 100px;
   height: 85%;
   margin: 50 auto;
   background-color: rgb(229, 114, 139);
@@ -143,7 +152,7 @@ width: 100px;
 }
 
 .containerblackfoot {
-background-color: rgb(36, 36, 40);
+  background-color: rgb(36, 36, 40);
   margin: 0 auto;
   max-width: auto;
   height: 100px;
@@ -163,11 +172,11 @@ background-color: rgb(36, 36, 40);
 }
 
 .lastloginlight span {
-text-align: center;
+  text-align: center;
   width: 60px;
-height: 20px;
-border: 2px dashed black;
-background-color: rgb(232, 113, 187);
-line-height: 15px;
-margin-top: 12px;
+  height: 20px;
+  border: 2px dashed black;
+  background-color: rgb(232, 113, 187);
+  line-height: 15px;
+  margin-top: 12px;
 }
