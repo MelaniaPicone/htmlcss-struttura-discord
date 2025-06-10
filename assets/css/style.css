@@ -25,6 +25,7 @@ header {
 .col-20 {
   width: 20%;
   height: 75px;
+
 }
 
 .col-60 {
@@ -40,6 +41,29 @@ header {
 
 .border-black {
   border: 1px solid black;
+}
+
+/* content classes */
+
+ul {
+  list-style-type: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.p-20 {
+  padding: 20px;
 }
 
 
@@ -90,8 +114,6 @@ header {
   display: flex;
   margin-top: 20px;
 }
-
-
 
 .containergrey {
   background-color: rgb(122, 122, 126);
